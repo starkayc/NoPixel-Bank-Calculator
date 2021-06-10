@@ -1,6 +1,6 @@
 # NoPixel-Bank-Calculator
 
-Prety simple program that allows the user to calculate total profit from a bank heist but also split it between the people involved and the total they've invested. Was made simply due to boredom and I wanted to use what I learnt in school recently.  
+Prety simple program that allows the user to calculate total profit from a bank heist but also split it between the people involved and the total they've invested. Program was made simply due to boredom as I wanted to use what I learnt in school recently to create something.  
 
 Screenshots: 
 ![Options](https://i.starkayc.moe/7f5ynb.png)
