@@ -148,25 +148,25 @@ int main()
 
     //checks the amount of bank members and displays the proper dialog
     if (bankmembers == 1) {
-    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
+    cout<<"Person 1 Receives: $"<<totalperson1<<" or "<<totalperson1/bags<<" Small Bags"<<endl;
     system("pause");
 
     }else if (bankmembers == 2) {
-    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
-    cout<<"Person 2 Receives: $"<<totalperson2<<endl;
+    cout<<"Person 1 Receives: $"<<totalperson1<<" or "<<totalperson1/bags<<" Small Bags"<<endl;
+    cout<<"Person 2 Receives: $"<<totalperson2<<" or "<<totalperson2/bags<<" Small Bags"<<endl;
     system("pause");
 
     }else if (bankmembers == 3) {
-    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
-    cout<<"Person 2 Receives: $"<<totalperson2<<endl;
-    cout<<"Person 3 Receives: $"<<totalperson3<<endl;
+    cout<<"Person 1 Receives: $"<<totalperson1<<" or "<<totalperson1/bags<<" Small Bags"<<endl;
+    cout<<"Person 2 Receives: $"<<totalperson2<<" or "<<totalperson2/bags<<" Small Bags"<<endl;
+    cout<<"Person 3 Receives: $"<<totalperson3<<" or "<<totalperson3/bags<<" Small Bags"<<endl;
     system("pause");
 
     }else if (bankmembers == 4) {
-    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
-    cout<<"Person 2 Receives: $"<<totalperson2<<endl;
-    cout<<"Person 3 Receives: $"<<totalperson3<<endl;
-    cout<<"Person 4 Receives: $"<<totalperson4<<endl;
+    cout<<"Person 1 Receives: $"<<totalperson1<<" or "<<totalperson1/bags<<" Small Bags"<<endl;
+    cout<<"Person 2 Receives: $"<<totalperson2<<" or "<<totalperson2/bags<<" Small Bags"<<endl;
+    cout<<"Person 3 Receives: $"<<totalperson3<<" or "<<totalperson3/bags<<" Small Bags"<<endl;
+    cout<<"Person 4 Receives: $"<<totalperson4<<" or "<<totalperson4/bags<<" Small Bags"<<endl;
     system("pause");
     }
 
