@@ -5,7 +5,7 @@ Prety simple program that allows the user to calculate total profit from a bank 
 Screenshots: 
 ![Options](https://i.starkayc.moe/7f5ynb.png)
 ![Option 1](https://i.starkayc.moe/fbtzVw.png)
-![Option 2](https://i.starkayc.moe/Ur6iOh.png)
+![Option 2](https://i.starkayc.moe/doUyPC.png)
 
 
 
