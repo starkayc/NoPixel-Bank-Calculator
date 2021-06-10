@@ -55,12 +55,32 @@ int main()
     cout<<"Bank Heist Total Payout: $"<<totalpayout<<endl;
     system("pause");
 
-    } else if (listoption == 2) 
-    
-    {
+    } else if (listoption == 2) {
+
     // Proccess User Input for Participants of the heist and the total they've invested.
     cout<<"Total Participants: "<<endl;
     cin>>bankmembers;
+
+    // Different dialog per amount of bank members
+    if (bankmembers == 1) {
+    cout<<"Enter amount Person 1 Invested: "<<endl;
+    cin>>person1;
+
+    }else if (bankmembers == 2) {
+    cout<<"Enter amount Person 1 Invested: "<<endl;
+    cin>>person1;
+    cout<<"Enter amount Person 2 Invested: "<<endl;
+    cin>>person2;
+
+    }else if (bankmembers == 3) {
+    cout<<"Enter amount Person 1 Invested: "<<endl;
+    cin>>person1;
+    cout<<"Enter amount Person 2 Invested: "<<endl;
+    cin>>person2;
+    cout<<"Enter amount Person 3 Invested: "<<endl;
+    cin>>person3;
+
+    }else if (bankmembers == 4) {
     cout<<"Enter amount Person 1 Invested: "<<endl;
     cin>>person1;
     cout<<"Enter amount Person 2 Invested: "<<endl;
@@ -69,6 +89,7 @@ int main()
     cin>>person3;
     cout<<"Enter amount Person 4 Invested: "<<endl;
     cin>>person4;
+    }
 
     // Process User Input for Loot
     cout<<"Amount of Small Bags: "<<endl;
@@ -83,8 +104,21 @@ int main()
     cin>>numgems;
     cout<<" "<<endl;
 
-    // Do all the math for the data entered
+    // checks the amount of bank members and does the proper math
+    if (bankmembers == 1 ){
+    totalinvested = person1;
+
+    }else if (bankmembers == 2){
+    totalinvested = person1 + person2;
+
+    }else if (bankmembers == 3){
+    totalinvested = person1 + person2 + person3;
+
+    }else if (bankmembers == 4){
     totalinvested = person1 + person2 + person3 + person4;
+    }
+
+    // Do all the math for the data entered
     totalsmallbags = numsmallbags * bags;
     totalinkbags = numinkbags * inkbags;
     totalcash = numcash * cash;
@@ -110,17 +144,33 @@ int main()
     cout<<" "<<endl;
     cout<<"Bank Heist Total Payout: $"<<totalpayout<<endl;
     cout<<"Bank Heist Total Profit: $"<<totalprofit<<endl;
-
     cout<<" "<<endl;
+
+    //checks the amount of bank members and displays the proper dialog
+    if (bankmembers == 1) {
+    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
+    system("pause");
+
+    }else if (bankmembers == 2) {
+    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
+    cout<<"Person 2 Receives: $"<<totalperson2<<endl;
+    system("pause");
+
+    }else if (bankmembers == 3) {
+    cout<<"Person 1 Receives: $"<<totalperson1<<endl;
+    cout<<"Person 2 Receives: $"<<totalperson2<<endl;
+    cout<<"Person 3 Receives: $"<<totalperson3<<endl;
+    system("pause");
+
+    }else if (bankmembers == 4) {
     cout<<"Person 1 Receives: $"<<totalperson1<<endl;
     cout<<"Person 2 Receives: $"<<totalperson2<<endl;
     cout<<"Person 3 Receives: $"<<totalperson3<<endl;
     cout<<"Person 4 Receives: $"<<totalperson4<<endl;
     system("pause");
+    }
 
-    }else 
-
-    {
+    } else {
     cout<<"You're an actual retard. Try again you autistic fuck."<<endl;
     system("pause");
     }
